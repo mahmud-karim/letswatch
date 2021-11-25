@@ -25,9 +25,13 @@ export default function Homepage() {
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
               Let's Watch
             </Typography>
+            <Button color="inherit" href="/upload">
+              Upload
+            </Button>
             <Button color="inherit" href="/player">
               Player
             </Button>
+            <Button color="inherit">Connect Wallet</Button>
           </Toolbar>
         </AppBar>
       </Box>

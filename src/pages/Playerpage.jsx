@@ -1,9 +1,11 @@
 import TextField from "@mui/material/TextField";
 import React from "react";
+import Homepage from "./Homepage";
 
 export default function Playerpage() {
   return (
     <div>
+      <Homepage />
       <h1>Player Page </h1>
       <label>Big Buck Bunny</label>
       <br />
