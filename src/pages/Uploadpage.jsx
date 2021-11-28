@@ -1,10 +1,10 @@
 import React from "react";
-import Homepage from "./Homepage";
+import Navbar from "../components/navbar";
 
 export default function Uploadpage() {
   return (
     <div>
-      <Homepage />
+      <Navbar />
       <h1>Upload Your Video</h1>
     </div>
   );
